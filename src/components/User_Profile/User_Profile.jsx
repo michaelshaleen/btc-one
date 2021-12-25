@@ -5,6 +5,7 @@ import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrow
 import KeyboardDoubleArrowUpIcon from '@mui/icons-material/KeyboardDoubleArrowUp';
 import Button from '@material-ui/core/Button';
 import Nav from '../Nav/Nav';
+import Swipe from '../Swipe_Btns/Swipe';
 
 function User_Profile() {
   const [nav, setNav] = useState(true);
@@ -12,6 +13,9 @@ function User_Profile() {
 
   return (<>
       <Nav />
+      <div className="profile-swipe">
+        <Swipe />
+      </div>
   </>)
 }
 

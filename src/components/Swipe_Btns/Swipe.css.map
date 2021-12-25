@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAA;EACN,QAAQ,EAAE,QAAQ;EAClB,MAAM,EAAE,GAAG;EACX,KAAK,EAAE,GAAG;CACX;;AAED,AAAA,OAAO,CAAA;EACL,QAAQ,EAAE,QAAQ;EAClB,MAAM,EAAE,GAAG;EACX,IAAI,EAAE,GAAG;CACV",
+    "sources": [
+        "Swipe.scss"
+    ],
+    "names": [],
+    "file": "Swipe.css"
+}
