@@ -14,8 +14,15 @@
 }
 
 .main-nav .MuiButton-sizeLarge {
+  color: red;
+  border: 3px solid red;
   position: absolute;
   right: 5%;
-  margin-top: 2vh;
+}
+
+.main-nav .MuiButton-sizeLarge:hover {
+  background-color: red;
+  color: black;
+  border: 2px solid black;
 }
 /*# sourceMappingURL=User_Profile.css.map */

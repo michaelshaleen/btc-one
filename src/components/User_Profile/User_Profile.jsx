@@ -2,6 +2,8 @@ import './User_Profile.css';
 import React from 'react'
 import { Link } from 'react-router-dom';
 import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
+import Button from '@material-ui/core/Button';
+
 
 function User_Profile() {
   return (<>
@@ -11,9 +13,9 @@ function User_Profile() {
     </span>
     BTC Buds
     <span>
-      <button className="MuiButton-sizeLarge">
+      <Button className="MuiButton-sizeLarge">
         Edit
-      </button>
+      </Button>
     </span>
   </nav>
   {/* <Link to="/" className="nav-links" >

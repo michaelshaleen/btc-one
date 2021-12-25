@@ -10,10 +10,16 @@
     cursor: pointer;
     position: absolute;
     left: 5%;
-    }
-    .MuiButton-sizeLarge{
+  }
+  .MuiButton-sizeLarge{
+    color: red;
+    border: 3px solid red;
     position: absolute;
     right: 5%;
-    margin-top: 2vh;
+    &:hover{
+      background-color: red;
+      color: black;
+      border: 2px solid black;
+    }
   }
 }
