@@ -1,7 +1,7 @@
 .main-nav {
   background-color: black;
   color: orange;
-  height: 10vh;
+  height: 15vh;
   padding-top: 3vh;
   font-size: 36px;
   -webkit-transition: 3s;
@@ -9,17 +9,20 @@
   padding-bottom: 3vh;
 }
 
-.main-nav .arrow-up {
+.main-nav .arrow-down {
   color: orange;
   cursor: pointer;
   position: absolute;
   padding-bottom: 3vh;
+  padding-top: 3vh;
   left: 5%;
   -webkit-transition: 3.2s;
   transition: 3.2s;
+  -webkit-transform: scale(3);
+          transform: scale(3);
 }
 
-.main-nav .arrow-down {
+.main-nav .arrow-up {
   color: orange;
   cursor: pointer;
   position: absolute;
@@ -34,6 +37,8 @@
   border: 3px solid red;
   position: absolute;
   right: 5%;
+  -webkit-transition: 5s;
+  transition: 5s;
 }
 
 .main-nav .MuiButton-sizeLarge:hover {
@@ -54,7 +59,7 @@
   bottom: 10%;
 }
 
-.main-nav-long .arrow-down {
+.main-nav-long .arrow-up {
   color: orange;
   cursor: pointer;
   position: absolute;
@@ -62,19 +67,19 @@
   bottom: 10%;
   -webkit-transition: 3.2s;
   transition: 3.2s;
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+  -webkit-transform: scale(3) rotate(180deg);
+          transform: scale(3) rotate(180deg);
 }
 
-.main-nav-long .arrow-up {
+.main-nav-long .arrow-down {
   color: orange;
   cursor: pointer;
   position: absolute;
   left: 5%;
   -webkit-transition: 3.2s;
   transition: 3.2s;
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+  -webkit-transform: scale(3) rotate(180deg);
+          transform: scale(3) rotate(180deg);
 }
 
 .main-nav-long .MuiButton-sizeLarge {

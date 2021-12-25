@@ -14,17 +14,17 @@ function User_Profile() {
 
 
   return (<>
-  <nav className={nav ? "main-nav" : "main-nav-long"}>
-    <span onClick={handleNav}>
-      <KeyboardDoubleArrowDownIcon className={nav ?  "arrow-up" : "arrow-down"} />
-    </span>
-    BTC Buds
-    <span>
-      <Button className="MuiButton-sizeLarge">
-        Edit
-      </Button>
-    </span>
-  </nav>
+      <nav className={nav ? "main-nav" : "main-nav-long"}>
+        <span onClick={handleNav}>
+          <KeyboardDoubleArrowDownIcon className={nav ?  "arrow-down" : "arrow-up"} />
+        </span>
+        BTC Buds
+        <span>
+          <Button className="MuiButton-sizeLarge">
+            Edit
+          </Button>
+        </span>
+      </nav>
   </>)
 }
 
