@@ -9,9 +9,6 @@ import Button from '@material-ui/core/Button';
 function User_Profile() {
   const [nav, setNav] = useState(true);
   const handleNav = () => setNav(!nav);
-  console.log(nav, "nav here");
-
-
 
   return (<>
       <nav className={nav ? "main-nav" : "main-nav-long"}>

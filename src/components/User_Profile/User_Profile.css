@@ -1,12 +1,12 @@
 .main-nav {
-  background-color: black;
   color: orange;
+  background-color: black;
   height: 15vh;
-  padding-top: 3vh;
+  padding-top: 4vh;
+  padding-bottom: 3vh;
   font-size: 36px;
   -webkit-transition: 3s;
   transition: 3s;
-  padding-bottom: 3vh;
 }
 
 .main-nav .arrow-down {
@@ -14,7 +14,7 @@
   cursor: pointer;
   position: absolute;
   padding-bottom: 3vh;
-  padding-top: 3vh;
+  padding-top: 2vh;
   left: 5%;
   -webkit-transition: 3.2s;
   transition: 3.2s;
@@ -37,8 +37,8 @@
   border: 3px solid red;
   position: absolute;
   right: 5%;
-  -webkit-transition: 5s;
-  transition: 5s;
+  -webkit-transition: .6s;
+  transition: .6s;
 }
 
 .main-nav .MuiButton-sizeLarge:hover {
@@ -51,12 +51,12 @@
   background-color: black;
   color: orange;
   height: 90vh;
-  padding-top: 3vh;
+  bottom: 10%;
+  padding-top: 4vh;
+  padding-bottom: 3vh;
   font-size: 36px;
   -webkit-transition: 3s;
   transition: 3s;
-  padding-bottom: 3vh;
-  bottom: 10%;
 }
 
 .main-nav-long .arrow-up {
