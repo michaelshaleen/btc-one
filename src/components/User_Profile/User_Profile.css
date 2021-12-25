@@ -4,6 +4,21 @@
   height: 10vh;
   padding-top: 5vh;
   font-size: 36px;
+  -webkit-transition: 3s;
+  transition: 3s;
+}
+
+.main-nav i {
+  color: green;
+}
+
+.main-nav .arrow-up {
+  color: orange;
+  cursor: pointer;
+  position: absolute;
+  left: 5%;
+  -webkit-transition: 3.2s;
+  transition: 3.2s;
 }
 
 .main-nav .arrow-down {
@@ -11,6 +26,8 @@
   cursor: pointer;
   position: absolute;
   left: 5%;
+  -webkit-transition: 3.2s;
+  transition: 3.2s;
 }
 
 .main-nav .MuiButton-sizeLarge {
@@ -24,5 +41,38 @@
   background-color: red;
   color: black;
   border: 2px solid black;
+}
+
+.main-nav-long {
+  background-color: black;
+  color: orange;
+  height: 90vh;
+  padding-top: 5vh;
+  font-size: 36px;
+  -webkit-transition: 3s;
+  transition: 3s;
+}
+
+.main-nav-long .arrow-down {
+  color: orange;
+  cursor: pointer;
+  position: absolute;
+  left: 5%;
+  bottom: 10%;
+  -webkit-transition: 3.2s;
+  transition: 3.2s;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.main-nav-long .arrow-up {
+  color: orange;
+  cursor: pointer;
+  position: absolute;
+  left: 5%;
+  -webkit-transition: 3.2s;
+  transition: 3.2s;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
 }
 /*# sourceMappingURL=User_Profile.css.map */
