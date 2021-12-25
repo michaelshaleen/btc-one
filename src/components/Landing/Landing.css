@@ -1,0 +1,21 @@
+.main-nav {
+  background-color: black;
+  color: orange;
+  height: 10vh;
+  padding-top: 5vh;
+  font-size: 36px;
+}
+
+.main-nav .arrow-down {
+  color: orange;
+  cursor: pointer;
+  position: absolute;
+  left: 5%;
+}
+
+.main-nav .MuiButton-sizeLarge {
+  position: absolute;
+  right: 5%;
+  margin-top: 2vh;
+}
+/*# sourceMappingURL=Landing.css.map */
