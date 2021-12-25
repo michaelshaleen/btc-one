@@ -15,10 +15,8 @@ function User_Profile() {
 
   return (<>
   <nav className={nav ? "main-nav" : "main-nav-long"}>
-    <span className="arrow-down" onClick={handleNav}>
+    <span onClick={handleNav}>
       <KeyboardDoubleArrowDownIcon className={nav ?  "arrow-up" : "arrow-down"} />
-      {/* <i className={nav ? "fa fa-arrow-circle-up" : "fa fa-arrow-circle-o-down"} aria-hidden="true"></i> */}
-
     </span>
     BTC Buds
     <span>
@@ -27,11 +25,6 @@ function User_Profile() {
       </Button>
     </span>
   </nav>
-  {/* <Link to="/" className="nav-links" >
-              Coach
-            </Link> */}
-      
-    
   </>)
 }
 

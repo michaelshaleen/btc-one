@@ -2,20 +2,18 @@
   background-color: black;
   color: orange;
   height: 10vh;
-  padding-top: 5vh;
+  padding-top: 3vh;
   font-size: 36px;
   -webkit-transition: 3s;
   transition: 3s;
-}
-
-.main-nav i {
-  color: green;
+  padding-bottom: 3vh;
 }
 
 .main-nav .arrow-up {
   color: orange;
   cursor: pointer;
   position: absolute;
+  padding-bottom: 3vh;
   left: 5%;
   -webkit-transition: 3.2s;
   transition: 3.2s;
@@ -25,6 +23,7 @@
   color: orange;
   cursor: pointer;
   position: absolute;
+  padding-bottom: 3vh;
   left: 5%;
   -webkit-transition: 3.2s;
   transition: 3.2s;
@@ -47,10 +46,12 @@
   background-color: black;
   color: orange;
   height: 90vh;
-  padding-top: 5vh;
+  padding-top: 3vh;
   font-size: 36px;
   -webkit-transition: 3s;
   transition: 3s;
+  padding-bottom: 3vh;
+  bottom: 10%;
 }
 
 .main-nav-long .arrow-down {
@@ -61,8 +62,8 @@
   bottom: 10%;
   -webkit-transition: 3.2s;
   transition: 3.2s;
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 
 .main-nav-long .arrow-up {
@@ -72,7 +73,23 @@
   left: 5%;
   -webkit-transition: 3.2s;
   transition: 3.2s;
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.main-nav-long .MuiButton-sizeLarge {
+  color: red;
+  border: 3px solid red;
+  position: absolute;
+  right: 5%;
+  bottom: 10%;
+  -webkit-transition: 3.2s;
+  transition: 3.2s;
+}
+
+.main-nav-long .MuiButton-sizeLarge:hover {
+  background-color: red;
+  color: black;
+  border: 2px solid black;
 }
 /*# sourceMappingURL=User_Profile.css.map */
