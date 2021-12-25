@@ -1,36 +1,35 @@
 .main-nav{
-  background-color: rgb(0, 0, 0);
   color: orange;
-  height: 10vh;
-  padding-top: 5vh;
+  background-color: rgb(0, 0, 0);
+  height: 15vh;
+  padding-top: 4vh;
+  padding-bottom: 3vh;
   font-size: 36px;
   transition: 3s;
-
-  i{
-    color: green;
-  }
-
-  .arrow-up{
-    color: orange;
-    cursor: pointer;
-    position: absolute;
-    left: 5%;
-    transition: 3.2s;
-
-  }
   .arrow-down{
     color: orange;
     cursor: pointer;
     position: absolute;
+    padding-bottom: 3vh;
+    padding-top: 2vh;
     left: 5%;
     transition: 3.2s;
-
+    transform: scale(3);
+  }
+  .arrow-up{
+    color: orange;
+    cursor: pointer;
+    position: absolute;
+    padding-bottom: 3vh;
+    left: 5%;
+    transition: 3.2s;
   }
   .MuiButton-sizeLarge{
     color: red;
     border: 3px solid red;
     position: absolute;
     right: 5%;
+    transition: .6s;
     &:hover{
       background-color: red;
       color: black;
@@ -38,35 +37,44 @@
     }
   }
 }
-
+// when drop down is showing contents
 .main-nav-long{
   background-color: rgb(0, 0, 0);
   color: orange;
   height: 90vh;
-  padding-top: 5vh;
+  bottom: 10%;
+  padding-top: 4vh;
+  padding-bottom: 3vh;
   font-size: 36px;
   transition: 3s;
-  .arrow-down{
+  .arrow-up{
     color: orange;
     cursor: pointer;
     position: absolute;
     left: 5%;
     bottom: 10%;
     transition: 3.2s;
-    transform: rotate(90deg);
-
-
+    transform: scale(3) rotate(180deg);
   }
-  .arrow-up{
+  .arrow-down{
     color: orange;
     cursor: pointer;
     position: absolute;
     left: 5%;
     transition: 3.2s;
-    transform: rotate(90deg);
-
-
+    transform: scale(3) rotate(180deg);
   }
-
-
+  .MuiButton-sizeLarge{
+    color: red;
+    border: 3px solid red;
+    position: absolute;
+    right: 5%;
+    bottom: 10%;
+    transition: 3.2s;
+    &:hover{
+      background-color: red;
+      color: black;
+      border: 2px solid black;
+    }
+  }
 }

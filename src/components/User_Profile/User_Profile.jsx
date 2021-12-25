@@ -9,29 +9,19 @@ import Button from '@material-ui/core/Button';
 function User_Profile() {
   const [nav, setNav] = useState(true);
   const handleNav = () => setNav(!nav);
-  console.log(nav, "nav here");
-
-
 
   return (<>
-  <nav className={nav ? "main-nav" : "main-nav-long"}>
-    <span className="arrow-down" onClick={handleNav}>
-      <KeyboardDoubleArrowDownIcon className={nav ?  "arrow-up" : "arrow-down"} />
-      {/* <i className={nav ? "fa fa-arrow-circle-up" : "fa fa-arrow-circle-o-down"} aria-hidden="true"></i> */}
-
-    </span>
-    BTC Buds
-    <span>
-      <Button className="MuiButton-sizeLarge">
-        Edit
-      </Button>
-    </span>
-  </nav>
-  {/* <Link to="/" className="nav-links" >
-              Coach
-            </Link> */}
-      
-    
+      <nav className={nav ? "main-nav" : "main-nav-long"}>
+        <span onClick={handleNav}>
+          <KeyboardDoubleArrowDownIcon className={nav ?  "arrow-down" : "arrow-up"} />
+        </span>
+        BTC Buds
+        <span>
+          <Button className="MuiButton-sizeLarge">
+            Edit
+          </Button>
+        </span>
+      </nav>
   </>)
 }
 
